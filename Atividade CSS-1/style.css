@@ -1,0 +1,43 @@
+#azul{
+    background-color: blue;
+    clear: left;
+    height: 100px;
+    width: 100px;
+    float: left;
+    color: blue;
+}
+
+#vermelho{
+    background-color: red;
+    clear: left;
+    height: 100px;
+    width: 100px;
+    float: left;
+    color: red;
+}
+
+#verde{
+    background-color: green;
+    clear: left;
+    height: 100px;
+    width: 100px;
+    float: left;
+    color: green;
+}
+
+#azulclaro{
+    background-color: rgb(32, 32, 255);
+    height: 100px;
+    width: 100px;
+    color: rgb(32, 32, 255);
+    float: left;
+    margin-right: 5px;
+}
+
+#rosa{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    color: pink;
+    float: left;
+}

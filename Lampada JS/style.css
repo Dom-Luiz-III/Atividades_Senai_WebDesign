@@ -1,0 +1,26 @@
+#lampada {
+    width: 300px;
+    height: 400px;
+    background-image: url(off.jpg);
+    background-size: cover;
+    margin-left: 40%;
+}
+
+button {
+    width: auto;
+    height: 30px;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.button_group {
+    margin-left: 45%;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

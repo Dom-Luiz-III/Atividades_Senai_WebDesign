@@ -1,0 +1,122 @@
+/*  SELETORES  */
+
+body{
+    margin: 0;                                                  /* Espaçamento de margem */
+    padding: 0;                                                 /* Espaçamento vertical */
+    font-family:'Franklin Gothic Medium';                       /* Esolher tipo de fonte */
+}
+
+.login{
+    height: 100vh;                                              /* Altura */
+    background-image: url(montanha.jpg);                        /* Plano de fundo degradê */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;                                              /* Mantêm a tela fixa sem movimento */
+    justify-content: center;                                    /* Centralizar textos */
+    align-items: center;                                        /* Centralizando icones */
+}
+
+.container{
+    min-height: 500px;                                          /* Altura do Bloco */
+    width: 500px;                                               /* Largura */
+    background-color: white;                              /* Cor do plano de fundo */
+    box-sizing: border-box;                                     /* Criando borda do bloco */
+    padding: 32px;                                              /* Espaçamento do Bloco */
+    border-radius: 8px;                                         /* Borda arredondadas */
+    display: flex;                                              /* Fixa bloco */
+    flex-direction: column;                                     /* Fixa o bloco em uma única coluna */
+    align-items: center;                                        /* Centraliza bloco */
+}
+
+h1{
+    margin: 0; 
+    font-family:'Franklin Gothic Medium';
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;                                              /* Cor */
+    margin: 7px;
+}
+
+.login_form{
+    width: 100%;                                                 /* Largura */
+    display: flex;                                               /* Fixa o bloco */
+    align-items: center;                                         /* Centralizando icones */
+    justify-content: center;                                     /* Centralizar textos */
+}
+
+.login_input{
+
+    height: 48px;                                                /* Altura */
+    width: 100%;                                                 /* Largura */
+    box-sizing: border-box;                                      /* Criando Borda do bloco */ 
+    padding-left: 8px;                                           /* Espaçamento Esquerda */
+    border: unset;                                               /* Retire a borda */
+    outline: none;                                               /* Retira a linha */
+}
+
+.image_icon{
+    border-radius: 99999px;
+    border: 4px solid rgb(107, 107, 107);
+    width: 80px;
+    height: 80px;
+}
+
+.button{
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover{
+    background-color: rgb(99, 99, 99);
+}
+
+.button_link{
+    height: 52px;
+    width: 70%;
+    outline: none;
+    background-color: rgb(41, 41, 41);
+    background-size: 360px;
+    margin: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_link:hover{
+    background-color: rgb(99, 99, 99);
+}
+
+#overflow{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium';
+    width: auto;
+    height: 250px;
+    overflow: auto;
+}

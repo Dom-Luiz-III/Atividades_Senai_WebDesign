@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>INSCRIÇÃO PARA RECEITA FEDERAL</h3>
+    
+    <form method="get">
+        NOME:
+        <br>
+        <input type="text" name="nome" placeholder="digite seu nome completo">
+        <br><br>
+        EMAIL:
+        <br>
+        <input type="email" name="email" placeholder="digite seu email">
+        <input type="password" name="senha" placeholder="digite sua senha">
+        <br><br>
+        NACIONALIDADE:
+        <br>
+        <input type="radio" id="est_BA" name="estado_origem" value="bahia">
+        <label for="est_BA">Bahia</label>
+        <input type="radio" id="est_PE" name="estado_origem" value="Pernambuco">
+        <label for="est_PE">Pernambuco</label>
+        <input type="radio" id="est_MG" name="estado_origem" value="MinasGerais">
+        <label for="est_MG">Minas Gerais</label>
+        <br><br>
+        <input type="checkbox" id="RG" name="RG" value="RG">
+        <label for="idade">Tenho RG</label>
+        <input type="checkbox" id="CNH" name="CNH" value="CNH">
+        <label for="idade">Tenho CNH</label>
+        <br><br>
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" value="Limpar Cadastro">
+    </form>
+
+    <select nome="regiao">
+
+        <option value="teste"></option>
+    </select>
+    
+</body>
+
+</html>

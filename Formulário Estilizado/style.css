@@ -1,0 +1,84 @@
+body{
+
+    margin: 0;                                                  /* Espaçamento de margem */
+    padding: 0;                                                 /* Espaçamento vertical */
+    font-family:'Franklin Gothic Medium';                       /* Esolher tipo de fonte */
+}
+
+.login{
+    height: 100vh;                                              /* Altura */
+    background: rgb(138, 189, 202);  /* Plano de fundo degradê */
+    display: flex;                                              /* Mantêm a tela fixa sem movimento */
+    justify-content: center;                                    /* Centralizar textos */
+    align-items: center;                                        /* Centralizando icones */
+}
+
+.login_container{
+    min-height: 400px;                                          /* Altura do Bloco */
+    width: 500px;                                               /* Largura */
+    background-color: white;                              /* Cor do plano de fundo */
+    box-sizing: border-box;                                     /* Criando borda do bloco */
+    padding: 32px;                                              /* Espaçamento do Bloco */
+    border-radius: 25px;                                         /* Borda arredondadas */
+    display: flex;                                              /* Fixa bloco */
+    flex-direction: column;                                     /* Fixa o bloco em uma única coluna */
+    align-items: center;                                        /* Centraliza bloco */
+}
+
+.dados{
+    color: rgb(177, 74, 45);
+    display: block;
+    text-align: left;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.login_input{
+    background-color: rgb(177, 74, 45);
+    height: 35px;                                               
+    width: 100%;                                                 
+    box-sizing: border-box;                                      
+    padding-left: 85px;                                           
+    border: unset;                                              
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+.login_input_text{
+    background-color: rgb(177, 74, 45);
+    height: 140px;                                               
+    width: 100%;                                                
+    box-sizing: border-box;                                      
+    padding-left: 85px;                                           
+    border: unset;                                              
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: aliceblue
+}
+
+.login_submit_left{
+    height: 35px;
+    width: 70px;
+    outline: none;
+    background: rgb(177, 74, 45);
+    color: white;
+    font-size: 16px;
+    border: unset;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 30%;
+}
+
+.login_submit_right{
+    height: 35px;
+    width: 70px;
+    outline: none;
+    background: rgb(177, 74, 45);
+    color: white;
+    font-size: 16px;
+    border: unset;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 30%;
+}

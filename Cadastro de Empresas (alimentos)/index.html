@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha de Cadastro</title>
+</head>
+
+<body>
+    <table border="2" width="100%">
+        <tr>
+            <th>FICHA DE CADASTRO - ALIMENTOS</th>
+        </tr>
+    </table>
+
+    <form method="get">
+        <table border="2" width="100%">
+            <tr>
+                <td>
+                    Tipo de solicitação:
+                    <br>
+                    <input type="radio" id="incluir" name="solicitacao" value="incluir">
+                    <label for="incluir">Incluir(1)</label>
+                    <br>
+                    <input type="radio" id="alterar" name="solicitacao" value="alterar">
+                    <label for="alterar">Alterar(2)</label>
+                </td>
+                <td colspan="2">
+                    Identificação da empresa(Razão Social)
+                    <br>
+                    <input type="text" name="razao_social">
+                </td>
+                <td>
+                    CNPJ
+                    <br>
+                    <input type="number" name="CNPJ">
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    Número do processo:
+                    <br>
+                    <input type="number" name="processo">
+                </td>
+
+                <td>
+                    Número do cadastro da empresa:
+                    <br>
+                    <input type="number" name="cadastro">
+                </td>
+                <td>
+                    Origem:
+                    <br>
+                    <input type="radio" id="nacional" name="origem" value="nacional">
+                    <label for="incluir">Nacional(1)</label>
+                    <br>
+                    <input type="radio" id="extran" name="origem" value="extran">
+                    <label for="alterar">Extrangeira(2)</label>
+                </td>
+                <td>
+                    País de origem:
+                    <br>
+                    <input type="text" name="pais_origem">
+                </td>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <th>ATIVIDADES AUTORIZADAS</th>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <td>
+                    <strong>Classe de produtos:</strong>
+                    <br>
+                    Alimentos(10)
+                    <br>
+                    <input type="checkbox" id="armazenar" name="alimentos" value="armazenar">
+                    <label for="armazenar">Armazenar</label>
+                    <input type="checkbox" id="Embalar" name="alimentos" value="Embalar">
+                    <label for="armazenar">Embalar</label>
+                    <input type="checkbox" id="Distribuir" name="alimentos" value="Distribuir">
+                    <label for="armazenar">Distribuir</label>
+                    <input type="checkbox" id="Exportar" name="alimentos" value="Exportar">
+                    <label for="armazenar">Exportar</label>
+                    <input type="checkbox" id="Fabricar" name="alimentos" value="Fabricar">
+                    <label for="armazenar">Fabricar</label>
+                    <input type="checkbox" id="Importar" name="alimentos" value="Importar">
+                    <label for="armazenar">Importar</label>
+                    <br>
+                    <input type="checkbox" id="Produzir" name="alimentos" value="Produzir">
+                    <label for="armazenar">Produzir</label>
+                    <input type="checkbox" id="Reembalar" name="alimentos" value="Reembalar">
+                    <label for="armazenar">Reembalar</label>
+                    <input type="checkbox" id="Transportar" name="alimentos" value="Transportar">
+                    <label for="armazenar">Transportar</label>
+                    <input type="checkbox" id="Fracionar" name="alimentos" value="Fracionar">
+                    <label for="armazenar">Fracionar</label>
+                    <input type="checkbox" id="outros" name="alimentos" value="outros">
+                    <label for="armazenar">outros</label>
+                    <br>
+                    <input type="text" name="alimentos">
+                </td>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <td>
+                    Aditivo(11)
+                    <br>
+                    <input type="checkbox" id="armazenar" name="Aditivo" value="armazenar">
+                    <label for="armazenar">Armazenar</label>
+                    <input type="checkbox" id="Embalar" name="Aditivo" value="Embalar">
+                    <label for="armazenar">Embalar</label>
+                    <input type="checkbox" id="Distribuir" name="Aditivo" value="Distribuir">
+                    <label for="armazenar">Distribuir</label>
+                    <input type="checkbox" id="Exportar" name="Aditivo" value="Exportar">
+                    <label for="armazenar">Exportar</label>
+                    <input type="checkbox" id="Fabricar" name="Aditivo" value="Fabricar">
+                    <label for="armazenar">Fabricar</label>
+                    <input type="checkbox" id="Importar" name="Aditivo" value="Importar">
+                    <label for="armazenar">Importar</label>
+                    <br>
+                    <input type="checkbox" id="Produzir" name="Aditivo" value="Produzir">
+                    <label for="armazenar">Produzir</label>
+                    <input type="checkbox" id="Reembalar" name="Aditivo" value="Reembalar">
+                    <label for="armazenar">Reembalar</label>
+                    <input type="checkbox" id="Transportar" name="Aditivo" value="Transportar">
+                    <label for="armazenar">Transportar</label>
+                    <input type="checkbox" id="Fracionar" name="Aditivo" value="Fracionar">
+                    <label for="armazenar">Fracionar</label>
+                    <input type="checkbox" id="outros" name="Aditivo" value="outros">
+                    <label for="armazenar">outros</label>
+                    <br>
+                    <input type="text" name="Aditivo">
+                </td>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <td>
+                    Embalagem(12)
+                    <br>
+                    <input type="checkbox" id="armazenar" name="Embalagem" value="armazenar">
+                    <label for="armazenar">Armazenar</label>
+                    <input type="checkbox" id="Embalar" name="Embalagem" value="Embalar">
+                    <label for="armazenar">Embalar</label>
+                    <input type="checkbox" id="Distribuir" name="Embalagem" value="Distribuir">
+                    <label for="armazenar">Distribuir</label>
+                    <input type="checkbox" id="Exportar" name="Embalagem" value="Exportar">
+                    <label for="armazenar">Exportar</label>
+                    <input type="checkbox" id="Fabricar" name="Embalagem" value="Fabricar">
+                    <label for="armazenar">Fabricar</label>
+                    <input type="checkbox" id="Importar" name="Embalagem" value="Importar">
+                    <label for="armazenar">Importar</label>
+                    <br>
+                    <input type="checkbox" id="Produzir" name="Embalagem" value="Produzir">
+                    <label for="armazenar">Produzir</label>
+                    <input type="checkbox" id="Reembalar" name="Embalagem" value="Reembalar">
+                    <label for="armazenar">Reembalar</label>
+                    <input type="checkbox" id="Transportar" name="Embalagem" value="Transportar">
+                    <label for="armazenar">Transportar</label>
+                    <input type="checkbox" id="Fracionar" name="Embalagem" value="Fracionar">
+                    <label for="armazenar">Fracionar</label>
+                    <input type="checkbox" id="outros" name="Embalagem" value="outros">
+                    <label for="armazenar">outros</label>
+                    <br>
+                    <input type="text" name="Embalagem">
+                </td>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <td>
+                    Coadjuvante de Tecnologia(13)
+                    <br>
+                    <input type="checkbox" id="armazenar" name="Tecnologia" value="armazenar">
+                    <label for="armazenar">Armazenar</label>
+                    <input type="checkbox" id="Embalar" name="Tecnologia" value="Embalar">
+                    <label for="armazenar">Embalar</label>
+                    <input type="checkbox" id="Distribuir" name="Tecnologia" value="Distribuir">
+                    <label for="armazenar">Distribuir</label>
+                    <input type="checkbox" id="Exportar" name="Tecnologia" value="Exportar">
+                    <label for="armazenar">Exportar</label>
+                    <input type="checkbox" id="Fabricar" name="Tecnologia" value="Fabricar">
+                    <label for="armazenar">Fabricar</label>
+                    <input type="checkbox" id="Importar" name="Tecnologia" value="Importar">
+                    <label for="armazenar">Importar</label>
+                    <br>
+                    <input type="checkbox" id="Produzir" name="Tecnologia" value="Produzir">
+                    <label for="armazenar">Produzir</label>
+                    <input type="checkbox" id="Reembalar" name="Tecnologia" value="Reembalar">
+                    <label for="armazenar">Reembalar</label>
+                    <input type="checkbox" id="Transportar" name="Tecnologia" value="Transportar">
+                    <label for="armazenar">Transportar</label>
+                    <input type="checkbox" id="Fracionar" name="Tecnologia" value="Fracionar">
+                    <label for="armazenar">Fracionar</label>
+                    <input type="checkbox" id="outros" name="Tecnologia" value="outros">
+                    <label for="armazenar">outros</label>
+                    <br>
+                    <input type="text" name="Tecnologia">
+                </td>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <th>ENDEREÇO DA SEDE</th>
+            </tr>
+        </table>
+
+        <table border="2" width="100%">
+            <tr>
+                <td>
+                    Logradouro:
+                    <br>
+                    <input type="text" name="Logradouro">
+                </td>
+                <td>
+                    N° <input type="number" name="numero">
+                </td>
+                <td>
+                    Sala:
+                    <br>
+                    <input type="text" name="sala">
+                </td>
+                <td>
+                    CEP:
+                    <br>
+                    <input type="number" name="CEP">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Município:
+                    <br>
+                    <input type="text" name="Município">
+                </td>
+                <td>
+                    Bairro:
+                    <br>
+                    <input type="text" name="Bairro">
+                </td>
+                <td>
+                    Estado:
+                    <br>
+                    <select nome="regiao">
+                        <option value="BA">Bahia</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="CE">Ceará</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="SE">Sergipe</option>
+                    </select>
+                </td>
+                <td>
+                    Telefone:
+                    <br>
+                    <input id="Telefone_id" type="tel" name="Telefone">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    FAX:
+                    <br>
+                    <input id="FAX_id" type="text" name="FAX">
+                </td>
+                <td colspan="4">
+                    Email:
+                    <br>
+                    <input id="Email_id" type="email" name="Email">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    Nome do representante legal:
+                    <br>
+                    <input id="representante_id" type="text" name="representante">
+                </td>
+                <td>
+                    CPF:
+                    <br>
+                    <input id="CPF_id" type="number" name="CPF">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    Assinatura Eletrônica:
+                    <br>
+                    <input id="Assinatura_id" type="text" name="Assinatura">
+                </td>
+                <td>
+                    Data:
+                    <br>
+                    <input id="Data_id" type="date" name="Data">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

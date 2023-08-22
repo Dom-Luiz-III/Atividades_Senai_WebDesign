@@ -1,0 +1,38 @@
+#esquerdacima{
+    background-color: red;
+    float: left;
+    clear: left;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    margin-bottom: 500px;
+}
+
+#esquerdabaixo{
+    background-color: green;
+    float: left;
+    clear: left;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+
+#direitacima{
+    background-color: yellow;
+    float: right;
+    clear: right;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    
+}
+
+#direitabaixo{
+    background-color: blue;
+    float: right;
+    clear: right;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    margin-bottom: 500px;
+}

@@ -1,0 +1,33 @@
+body {
+
+    background-image: url(frankSinatra2.jpg);
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+#titulo {
+    font-family: 'Kunstler Script';
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    justify-content: right;
+    float: right;
+    margin-right: 10%;
+}
+
+p {
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 40;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;    
+    float: right;
+    margin-left: 40%;
+       
+
+}

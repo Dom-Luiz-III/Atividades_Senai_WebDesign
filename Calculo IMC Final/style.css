@@ -1,0 +1,42 @@
+.text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 550px;
+    background-image: url(imc.png);
+    background-size: cover;
+    margin-left: 43%;
+}
+
+.group {
+    margin-left: 44%;
+}
+
+.button {
+    width: auto;
+    height: 30px;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.input{
+    background-color: rgb(236, 236, 236);
+    height: 35px;                                               
+    width: auto;                                                 
+    box-sizing: border-box;                                                                                 
+    border: 2px solid rgb(70, 70, 70);                                           
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
