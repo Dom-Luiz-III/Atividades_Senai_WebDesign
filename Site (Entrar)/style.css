@@ -1,0 +1,112 @@
+/*  SELETORES  */
+
+body{
+
+    margin: 0;                                                  /* Espaçamento de margem */
+    padding: 0;                                                 /* Espaçamento vertical */
+    font-family:'Franklin Gothic Medium';                       /* Esolher tipo de fonte */
+}
+
+.login{
+    height: 100vh;                                              /* Altura */
+    background: linear-gradient(120deg, #030031, #001aff);  /* Plano de fundo degradê */
+    display: flex;                                              /* Mantêm a tela fixa sem movimento */
+    justify-content: center;                                    /* Centralizar textos */
+    align-items: center;                                        /* Centralizando icones */
+}
+.login_container{
+    min-height: 400px;                                          /* Altura do Bloco */
+    width: 300px;                                               /* Largura */
+    background-color: white;                              /* Cor do plano de fundo */
+    box-sizing: border-box;                                     /* Criando borda do bloco */
+    padding: 32px;                                              /* Espaçamento do Bloco */
+    border-radius: 8px;                                         /* Borda arredondadas */
+    display: flex;                                              /* Fixa bloco */
+    flex-direction: column;                                     /* Fixa o bloco em uma única coluna */
+    align-items: center;                                        /* Centraliza bloco */
+}
+
+
+h1{
+    margin: 0; 
+    padding: 10;
+    font-family:'Franklin Gothic Medium';
+}
+
+.login_title{
+    margin-bottom: 32px;                                         /* Borda da margem */
+    color: black;                                              /* Cor */
+}
+
+.login_form{
+    width: 100%;                                                 /* Largura */
+    display: flex;                                               /* Fixa o bloco */
+    flex-direction: column;                                      /* Fixa o bloco em uma única coluna */
+    align-items: center;                                         /* Centralizando icones */
+    justify-content: center;                                     /* Centralizar textos */
+}
+
+.login_input{
+
+    height: 48px;                                                /* Altura */
+    width: 100%;                                                 /* Largura */
+    box-sizing: border-box;                                      /* Criando Borda do bloco */ 
+    padding-left: 8px;                                           /* Espaçamento Esquerda */
+    border: unset;                                               /* Retire a borda */
+    outline: none;                                               /* Retira a linha */
+}
+
+.login_input-border{
+
+    height: 2px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: white;
+    transition: .3s ease-in-out;
+    background: linear-gradient(160deg, rgb(93, 0, 136), #0084ff);
+    transition: .3s ease-in-out;
+}
+
+
+.login_input-border::after{
+    content: '';
+    display: black;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;
+    background: linear-gradient(120deg, rgb(93, 0, 136), rgb(0, 153, 255));
+    transition: .3s ease-in-out;
+}
+
+.login_submit{
+    height: 48px;
+    width: 100%;
+    outline: none;
+    background: linear-gradient(160deg, rgb(93, 0, 136), rgb(0, 153, 255), rgb(93, 0, 136));
+    background-size: 360px;
+    margin-bottom: 32px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.login_submit:hover{
+    background-position: right;
+}
+
+.login_reset{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium';
+}
+.login_cadastre-se{
+    font-size: 15px;
+    color: rgb(68, 0, 255);
+    text-decoration: none;
+    font-family: 'Segoe UI';
+}

@@ -1,0 +1,9 @@
+#main {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 500px;
+    max-height: 400px;
+}
